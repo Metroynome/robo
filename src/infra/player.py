@@ -111,7 +111,7 @@ class Player():
 
     async def send_patch(self, packets: [bytes]):
         max_packet_size = 512
-        packet_delay = .00001
+        packet_delay = .25
 
         for packet in packets:
             while len(packet) > max_packet_size:

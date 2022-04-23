@@ -1,7 +1,7 @@
 {
-    "public_ip": "0.0.0.0",
+    "public_ip": "192.168.0.28",
     "patch": {
-        "hook_addr": "0x00000000"
+        "hook_addr": "0x00139e94"
     },
 	"bcrypt_salt" : "$2b$12$YHsqcQVMHaqkpapmbmPZ8.",
 	"policy": "Placeholder policy",
@@ -18,7 +18,7 @@
 	"pcap": {
     "enabled": "True",
 		"log_max_mb": 250,
-		"log_backup_count": 5
+		"log_backup_count": 1
 	},
   "websocket": {
     "port": 8765,
@@ -28,34 +28,34 @@
     "port": 8281,
     "sync_rate": 30,
     "log_max_mb": 50,
-    "log_backup_count": 5
+    "log_backup_count": 1
   },
 	"log_location": "/logs",
 	"mas": {
 		"port": 10075,
 		"extra_port": 10055,
 		"log_max_mb": 50,
-		"log_backup_count": 5
+		"log_backup_count": 1
 	},
 	"mls": {
 		"port": 10078,
 		"log_max_mb": 50,
-		"log_backup_count": 5
+		"log_backup_count": 1
 	},
 	"dmetcp": {
 		"port": 10079,
 		"log_max_mb": 50,
-		"log_backup_count": 5
+		"log_backup_count": 1
 	},
 	"dmeudp": {
-		"port": 51000,
+		"port": 10071,
 		"log_max_mb": 50,
-		"log_backup_count": 5
+		"log_backup_count": 1
 	},
 	"nat": {
 		"port": 10070,
 		"log_max_mb": 50,
-		"log_backup_count": 5
+		"log_backup_count": 1
 	},
 	"app_id": 10684,
     "channels": [
